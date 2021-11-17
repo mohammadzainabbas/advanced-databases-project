@@ -1,6 +1,6 @@
 ### INFO-H-415: Advanced Databases' Project ✨👨🏻‍💻
 
-[![Open in VS Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/mohammadzainabbas/advanced-database-project)
+[![Open in VS Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/mohammadzainabbas/advanced-databases-project)
 
 <!-- ## Table of contents
 
