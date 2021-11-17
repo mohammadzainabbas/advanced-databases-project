@@ -1,7 +1,7 @@
 from cryptofeed import FeedHandler
 from cryptofeed.defines import TRADES
 from cryptofeed.exchanges import Binance
-from datetime import datetime
+from datetime.datetime import fromtimestamp
 from time import time
 
 # Total records to store for now
@@ -30,7 +30,7 @@ def stop_loop_and_save_csv():
 async def trade(data, *args, **kwargs):
 
     temp = {}
-    temp["time"], temp["amount"], temp["symbol"], temp["price"], temp["side"], temp["timestamp"] = int(data.timestamp * 1000000), data.amount, data.symbol, data.price, data.side, datetime.fromtimestamp(data.timestamp)
+    temp["time"], temp["amount"], temp["symbol"], temp["price"], temp["side"], temp["timestamp"] = int(data.timestamp * 1000000), data.amount, data.symbol, data.price, data.side, fromtimestamp(data.timestamp)
 
     trades.append(temp)
 
