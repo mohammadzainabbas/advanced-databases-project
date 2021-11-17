@@ -2,7 +2,7 @@
 
 [![Open in VS Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/mohammadzainabbas/advanced-database-project)
 
-## Table of contents
+<!-- ## Table of contents
 
 - [Introduction](#introduction)
   * [Time series databases](#time-series-databases)
@@ -162,4 +162,4 @@ This will run for all the scales.
 The benchmarking results can be found under `benchmark` folder. For example, when you run `sh benchmark.sh -scale 1` (_i.e: benchmarking for 1 GB scale_), you will find two files in `benchmark` directory:
 
 1. `benchmark_timings_1gb.csv` contains the average time (_in seconds_) for all queries.
-2. `benchmark_timings_1gb.pickle` contains all the timings for each query (usually 5 per query).
+2. `benchmark_timings_1gb.pickle` contains all the timings for each query (usually 5 per query). -->
