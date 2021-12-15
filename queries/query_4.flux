@@ -1,5 +1,5 @@
 from(bucket: "advanced_db")
-  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)
+  |> range(start: _start, stop: _end)
   |> filter(fn: (r) => r["_measurement"] == "trades")
   |> filter(fn: (r) => r["_field"] == "price")
   |> filter(fn: (r) => r["symbol"] == "BTC-USDT" or r["symbol"] == "ETH-USDT")
